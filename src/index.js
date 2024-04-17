@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import "./index.css";
-// import App from "./App";
+import "./index.css";
+import App from "./App";
 
 // import StarRating from "./StarRating";
 
-import TextExpander from "./TextExpander";
+// import TextExpander from "./TextExpander";
 
 // function Test() {
 //   const [movieRating, setMovieRating] = useState(0);
@@ -22,11 +22,7 @@ import TextExpander from "./TextExpander";
 // }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <TextExpander />
-  </React.StrictMode>
-);
+root.render(<React.StrictMode>{<App />}</React.StrictMode>);
 
 // {/* <App /> */}
 // {/* <StarRating
